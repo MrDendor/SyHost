@@ -1,2 +1,0 @@
-# SyHost
-SyHost 
