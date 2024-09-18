@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SyHost</title>
+    <style>
+        body {
+            background-image: url('MainMenu/background_image_index'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+        }
+
+        label {
+            display: block;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-top: 50px; 
+        }
+
+        input[type="text"] {
+            display: block;
+            margin: 0 auto 10px auto; 
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        body {
+    background-color: rgb(191, 197, 199);
+
+}
+    </style>
+</head>
+<body>
+    <h1> LOGIN PAGE</h1>
+    
+    <center>
+        <form id="myForm">
+            <label for="inputText">LOGIN WITH YOUR TOKEN ID</label>
+            <input type="text" id="inputText" name="inputText">
+            <button type="button" onclick="checkInput()">LOGIN</button>
+        </form>
+    </center>
+    <script>
+        
+   dendor 
+        function checkInput() {
+            var userInput = document.getElementById('inputText').value;
+            if (userInput === '001-TYPE:CEO-4251') {
+                window.location.href = 'UserPages/page-Dendor/Dendor0123201.html'; 
+                alert("You logged in | Press OK to continue")
+             } else {
+                alert('Incorrect token ID! Try again! If you forgot your Token ID, contact us: help.syhost@gmail.com');
+            }
+        }
+
+
+
+    
+    
+    
+    
+    
+    </script>
+</body>
+</html>
