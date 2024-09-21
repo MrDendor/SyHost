@@ -1,0 +1,1 @@
+alert("Welcome dude! | This is my official page! | Check my stuff and links here! | Press OK to continue!")
